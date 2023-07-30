@@ -21,6 +21,14 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+
+#feign自定义配置
+#feign:
+#  client:
+#    config:
+#      default:
+#        loggerLevel: FULL
+
 #eureka:
 #  client:
 #    service-url:
