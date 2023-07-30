@@ -22,11 +22,13 @@ logging:
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
 
-feign:
-  client:
-    config:
-      default:
-        loggerLevel: FULL
+#feign自定义配置
+#feign:
+#  client:
+#    config:
+#      default:
+#        loggerLevel: FULL
+
 #eureka:
 #  client:
 #    service-url:
